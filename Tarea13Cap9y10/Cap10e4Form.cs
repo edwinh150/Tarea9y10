@@ -16,5 +16,24 @@ namespace Tarea13Cap9y10
         {
             InitializeComponent();
         }
+
+        private void Mostrarbutton_Click(object sender, EventArgs e)
+        {
+            double control = Convert.ToDouble(LadostextBox.Text);
+
+            if(control >= 2)
+            {
+                Poligono po = new Poligono(control);
+                ResultadotextBox.Text = po.CalcularP().ToString();
+            }
+            else
+            {
+                MessageBox.Show("Ingrese desde 2 en adelante");
+                LadostextBox.Clear();
+            }
+            
+
+            
+        }
     }
 }

@@ -77,5 +77,12 @@ namespace Tarea13Cap9y10
 
             Cap103.Show();
         }
+
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            Cap10e4Form Cap104 = new Cap10e4Form();
+
+            Cap104.Show();
+        }
     }
 }

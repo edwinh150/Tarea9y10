@@ -38,21 +38,22 @@
             // 
             // Mostrarbutton
             // 
-            this.Mostrarbutton.Location = new System.Drawing.Point(275, 153);
+            this.Mostrarbutton.Location = new System.Drawing.Point(274, 149);
             this.Mostrarbutton.Name = "Mostrarbutton";
             this.Mostrarbutton.Size = new System.Drawing.Size(75, 23);
             this.Mostrarbutton.TabIndex = 9;
             this.Mostrarbutton.Text = "Mostrar";
             this.Mostrarbutton.UseVisualStyleBackColor = true;
+            this.Mostrarbutton.Click += new System.EventHandler(this.Mostrarbutton_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(166, 39);
+            this.label3.Location = new System.Drawing.Point(114, 45);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 13);
+            this.label3.Size = new System.Drawing.Size(135, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Poligono";
+            this.label3.Text = "Clase Poligono y Condicion";
             // 
             // label2
             // 

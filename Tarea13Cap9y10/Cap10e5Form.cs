@@ -16,5 +16,12 @@ namespace Tarea13Cap9y10
         {
             InitializeComponent();
         }
+
+        private void Mbutton_Click(object sender, EventArgs e)
+        {
+            Poligono poligono = new Poligono(Convert.ToDouble(NtextBox.Text));
+
+            RtextBox.Text = poligono.CalcularP().ToString();
+        }
     }
 }
