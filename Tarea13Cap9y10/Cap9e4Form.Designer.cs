@@ -42,6 +42,7 @@
             this.EnumtextBox.Name = "EnumtextBox";
             this.EnumtextBox.Size = new System.Drawing.Size(248, 20);
             this.EnumtextBox.TabIndex = 0;
+            this.EnumtextBox.TextChanged += new System.EventHandler(this.EnumtextBox_TextChanged);
             // 
             // Guardarbutton
             // 
@@ -59,6 +60,7 @@
             this.ResultadotextBox.Name = "ResultadotextBox";
             this.ResultadotextBox.Size = new System.Drawing.Size(248, 20);
             this.ResultadotextBox.TabIndex = 0;
+            this.ResultadotextBox.TextChanged += new System.EventHandler(this.ResultadotextBox_TextChanged);
             // 
             // label1
             // 
@@ -68,6 +70,7 @@
             this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Ingrese numero";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -77,6 +80,7 @@
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Resultado";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -86,6 +90,7 @@
             this.label3.Size = new System.Drawing.Size(153, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "Tipos de Neumaticos del 1 al 4";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Cap9e4Form
             // 

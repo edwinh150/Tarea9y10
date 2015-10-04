@@ -120,6 +120,12 @@
     <EmbeddedResource Include="Cap10e2Form.resx">
       <DependentUpon>Cap10e2Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cap10e3Form.resx">
+      <DependentUpon>Cap10e3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cap10e4Form.resx">
+      <DependentUpon>Cap10e4Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cap9e1Form.resx">
       <DependentUpon>Cap9e1Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cap9e4Form.resx">
       <DependentUpon>Cap9e4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cap9e5Form.resx">
+      <DependentUpon>Cap9e5Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>

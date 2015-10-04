@@ -12,9 +12,24 @@ namespace Tarea13Cap9y10
 {
     public partial class Cap9e5Form : Form
     {
+        enum Estrellas { EnanaBlanca = 1, EnanaRoja = 2, SuperGigante = 3, ProtoEstrella = 4, EstrellaTtauri = 5, EstrellaSecuenciaPrincipal = 6, GiganteRoja = 7 };
+
         public Cap9e5Form()
         {
             InitializeComponent();
+        }
+
+        private void Guardarbutton_Click(object sender, EventArgs e)
+        {
+            Estrellas tipos = Estrellas.EnanaBlanca;
+
+            int numero = Convert.ToInt32(EnumtextBox.Text);
+            int comparacion = 0;
+            comparacion = (int)tipos;
+            if (numero == comparacion)
+            {
+                ResultadotextBox.Text = tipos.ToString();
+            }
         }
     }
 }
