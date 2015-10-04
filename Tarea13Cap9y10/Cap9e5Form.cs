@@ -23,13 +23,8 @@ namespace Tarea13Cap9y10
         {
             Estrellas tipos = Estrellas.EnanaBlanca;
 
-            int numero = Convert.ToInt32(EnumtextBox.Text);
-            int comparacion = 0;
-            comparacion = (int)tipos;
-            if (numero == comparacion)
-            {
-                ResultadotextBox.Text = tipos.ToString();
-            }
+            ResultadotextBox.Text = tipos.ToString();
+            
         }
     }
 }

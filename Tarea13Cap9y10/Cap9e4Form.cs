@@ -22,13 +22,9 @@ namespace Tarea13Cap9y10
         private void Guardarbutton_Click(object sender, EventArgs e)
         {
             neumaticos tipos = neumaticos.Calle;
-    
-            int numero = Convert.ToInt32(EnumtextBox.Text);
 
-            if (numero == (int)tipos)
-            {
-                ResultadotextBox.Text = tipos.ToString();
-            }
+            ResultadotextBox.Text = tipos.ToString();
+            
         }
 
         private void label2_Click(object sender, EventArgs e)

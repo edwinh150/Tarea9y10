@@ -60,7 +60,7 @@ namespace Tarea13Cap9y10
 
             Persona p = new Persona(NPtextBox.Text, PEdad, DPtextBox.Text, NMtextBox.Text, Medad, RazatextBox.Text);
 
-            MessageBox.Show("se guardo correctamente");
+            MessageBox.Show("se guardo correctamente a " + p.Nombre + " y su mascota: " + p.masco.Nombre, "Aviso");
 
         }
     }
